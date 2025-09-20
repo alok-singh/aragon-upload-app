@@ -1,0 +1,21 @@
+.back-button-section {
+  max-width: 1440px;
+  margin: 32px auto;
+}
+
+.back-button-section .back-button {
+  box-shadow: rgba(12, 12, 13, 0.4) 0px 1px 4px 0px;
+  border: none;
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.back-button-section .button-text {
+  font-weight: bold;
+  color: #333;
+  margin-left: 8px;
+}

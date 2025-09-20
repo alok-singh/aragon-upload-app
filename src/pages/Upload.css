@@ -1,0 +1,31 @@
+.main-content {
+  max-width: 1440px;
+  margin: 32px auto;
+}
+
+.upload-page-wrapper {
+  display: flex;
+}
+
+.upload-page-wrapper .left-section {
+  width: 320px;
+  margin-right: 32px;
+  margin-top: 16px;
+  padding-right: 32px;
+  border-right: 2px solid #eaeaea;
+}
+
+.upload-page-wrapper .right-section {
+  flex-grow: 1;
+  max-width: 1088px;
+}
+
+.photo-preview-section {
+  text-align: right;
+  color: #888;
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

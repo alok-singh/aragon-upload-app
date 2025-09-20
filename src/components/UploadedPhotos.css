@@ -1,0 +1,62 @@
+.uploaded-photos-section {
+  margin-top: 24px;
+  padding: 24px;
+  background: rgba(249, 249, 249);
+  border-radius: 16px;
+}
+
+.uploaded-photos-section.success {
+  border-color: #01ac5e1a;
+  background-color: #01ac5e0a;
+}
+
+.uploaded-photos-section.error {
+  border-color: #e8554d14;
+  background-color: #e8554d0a;
+}
+
+.uploaded-photos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.uploaded-photos-header h2 {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+}
+
+.uploaded-photos-count {
+  font-size: 16px;
+  color: #888;
+}
+
+.uploaded-photos-grid {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.chevron-icon-wrapper {
+  width: 32px;
+}
+
+.chevron-icon-wrapper svg {
+  width: 100%;
+  height: 100%;
+  transition-duration: 400ms;
+}
+
+.chevron-icon-wrapper.expended svg {
+  transform: rotate(180deg);
+}
+
+
+.empty-photos-section {
+  width: 100%;
+  padding: 80px;
+  text-align: center;
+  font-size: 16px;
+}

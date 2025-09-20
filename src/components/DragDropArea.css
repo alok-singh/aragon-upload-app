@@ -1,0 +1,29 @@
+.drag-drop-area {
+  border: 2px dashed #F9B233;
+  border-radius: 8px;
+  padding: 18px 24px;
+  color: #888;
+  background: #fff;
+  font-size: 16px;
+  text-align: center;
+  transition: border-color 0.2s, background 0.2s;
+  cursor: pointer;
+  outline: none;
+}
+
+.drag-drop-area--active {
+  border-color: #f57c00;
+  background: #fffbe6;
+}
+
+.drag-drop-area--disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .drag-drop-area {
+    padding: 12px 4px;
+    font-size: 15px;
+  }
+}
